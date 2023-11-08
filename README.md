@@ -80,8 +80,8 @@ for (let i = 1; i <= 100; i++) {
 - creo due variabili che identificano se un numero sia divisibile per 3 o 5 (così da poterne cambiare il valore in futuro se neseccario)
 - usando l' operatore modulo (`%`) creo le tre casistiche
 - cerco prima quelli sia divisibili per 5 che per 3 (perchè soddisfano anche le condizioni successive) e stampo "FizzBuzz"
-- cerco i numeri divisibiuli per 5 e stampo "Buzz"
-- cerco i numeri divisibiuli per 3 e stampo "Fizz"
+- cerco i numeri divisibili per 5 e stampo "Buzz"
+- cerco i numeri divisibili per 3 e stampo "Fizz"
 - se il numero non soddisfa nessuna delle condizioni stampo il numero stesso (NB se messo fuori da else crea contrasto con i numeri che soddisfano le condizioni)
 
 **_Creazione di un container nel DOM in cui mostrare la lista_**
@@ -139,7 +139,7 @@ for (let i = 1; i <= 100; i++) {
 - creo e assegno a una variabile l' elemento html li, usando `const li = document.createElement("li");`
 - assegno al mio elementi `li` delle classi (personali e bootsrap), usando `li.classList.add("nome-classe");`
 - inserisco all' interno dei `li` (a seconda delle condizioni) il suo contenuto html, usando `li.append(divisibilePerCinque);`
-- alla fine, fuori dalle condizioni, inserisco il `li` creato all' interno di `ul` (`  elementLista.append(li);`)
+- alla fine, fuori dalle condizioni, inserisco il `li` creato all' interno di `ul` (`elementLista.append(li);`)
 - ripeto il ciclo
 
 NB
