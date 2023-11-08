@@ -9,7 +9,7 @@ const divisibilePerCinque = "Buzz";
 
 for (let i = 1; i <= 100; i++) {
   //* creazione elemento html li
-  const li = document.createElement("div");
+  const li = document.createElement("li");
   li.classList.add("-lc-list-item");
   li.classList.add("rounded");
   li.classList.add("shadow-lg");
