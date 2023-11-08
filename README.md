@@ -23,3 +23,13 @@ NB
 usare l' operatore modulo per determinare il resto
 
 cercare di unire le stringhe 'Fizz' e 'Buzz' per stampare 'FizzBuzz'
+
+4. Creazione di un container nel DOM in cui mostrare la lista
+   - creo un container nell' HTML
+   - creo un `ul`
+   - inserisco nell' `ul` la lista dei numeri
+
+NB
+usare `document.createElement('li');` per creare i `li` da inserire nell' `ul`
+
+usare `append` per avere un output nell' HTML
