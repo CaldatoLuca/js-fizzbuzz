@@ -4,8 +4,8 @@
 ?---------
 */
 :root {
-  --blue: rgb(43, 52, 153);
-  --orange-600: rgb(255, 108, 34);
+  --blue: #2b3499;
+  --orange-600: #ff6c22;
   --orange-500: rgb(255, 146, 9);
   --sand: rgb(255, 208, 153);
 }
@@ -16,7 +16,21 @@
 ?---------
 */
 body {
-  background: linear-gradient(45deg, var(--blue), var(--orange-600));
+  background: linear-gradient(-45deg, #2b3499, #ff6c22, #23a6d5, var(--blue));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* 
