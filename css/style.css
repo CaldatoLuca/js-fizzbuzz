@@ -1,8 +1,55 @@
+/* 
+?---------
+!LIST ITEM
+?---------
+*/
+:root {
+  --blue: rgb(43, 52, 153);
+  --orange-600: rgb(255, 108, 34);
+  --orange-500: rgb(255, 146, 9);
+  --sand: rgb(255, 208, 153);
+}
+
+/* 
+?---------
+!BODY
+?---------
+*/
+body {
+  background: linear-gradient(45deg, var(--blue), var(--orange-600));
+}
+
+/* 
+?---------
+!CONTAINER
+?---------
+*/
+.container {
+  background-color: var(--blue);
+}
+
+/* 
+?---------
+!LIST ITEM
+?---------
+*/
 .-lc-list-item {
   width: 100px;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: salmon;
+}
+.-lc-number {
+  background-color: var(--sand);
+  color: var(--blue);
+}
+.-lc-number-3 {
+  background-color: var(--orange-500);
+}
+.-lc-number-5 {
+  background-color: var(--orange-600);
+}
+.-lc-number-3-5 {
+  background-color: var(--blue);
 }
